@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#udodelena
+
 from LineAPI.linepy import *
 from LineAPI.akad.ttypes import Message
 from LineAPI.akad.ttypes import ContentType as Type
@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
-
+#udodelena
 client = LINE()
 #client = LINE("")
 clientMid = client.profile.mid
